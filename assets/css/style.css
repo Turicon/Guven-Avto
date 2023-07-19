@@ -10411,3 +10411,32 @@ header.main-header.header-style-ten .main-menu .navigation>li.current>a:before {
 .services-1-icon i {
     font-size: 45px;
 }
+
+
+/* NEW STYLE */
+.main-menu .navigation>li {
+    margin-right: 25px;
+}
+
+.projects-2-category p {
+    font-size: 20px;
+    color: #242424;
+    font-weight: 700;
+    font-family: "Poppins,san-serif";
+}
+.lightbox-zoom img {
+    width: 40px !important;
+    height: 32px !important;
+    border-radius: 5px;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+}
+.projects-2-image iframe{
+    height: 350px;
+}
+@media(max-width:576px){
+    .video-title p {
+        margin-bottom: 30px;
+        margin-top: -12px;
+    }
+}
